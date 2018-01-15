@@ -28,6 +28,8 @@ body{
 #img-secundaria{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
 }
 #img-central{
   position: center;
@@ -40,14 +42,14 @@ body{
 }
 #img-sec1{
   width: 400px;
-  border: 1px;
-  margin-left: 10%;
+  border: 1px solid;
+  margin-top: 5%;
 }
 
 #img-sec2{
   width: 400px;
-  border: 1px;
-  margin-left: 10%;
+  border: 1px solid;
+  margin-top: 5%;
 }
 
 .img-sec{
