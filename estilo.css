@@ -2,18 +2,28 @@ body{
   font-family: "Dancing Script";
   background-color: #02010a;
 }
-.header-page{
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+#cabecera-page{
   color: white;
   background-color: #5b7989;
   text-shadow: 2px 2px #02010a;
   border-radius: 10px 10px 0 0;
+  box-sizing:
 }
-.content-page{
-  text-align: left;
-
+#content-page{
+  background-color: #82c3a6;
 }
-.nav-page{
-  text-align: right;
+#foot-page{
+  background-color: blue;
+}
+.titulo{
+  float: left;
+}
+.menu{
+float: right;
 }
 .enlace{
   color: white;
