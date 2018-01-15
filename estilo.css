@@ -5,6 +5,9 @@ body{
 #contenido{
   display: flex;
   flex-direction: column;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #cabecera-page{
   color: white;
@@ -13,14 +16,48 @@ body{
   border-radius: 10px 10px 0 0;
   box-sizing:
 }
-#content-page{
+#foot-page{
+  background-color: #C6d5c5;
+}
+#div-principal{
   background-color: #82c3a6;
 }
-#foot-page{
-  background-color: blue;
+#div-secundaria{
+  background-color: #d5c75f;
+}
+#img-secundaria{
+  display: flex;
+  flex-direction: row;
+}
+#img-central{
+  position: center;
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+}
+#img-sec1{
+  width: 400px;
+  border: 1px;
+  margin-left: 10%;
+}
+
+#img-sec2{
+  width: 400px;
+  border: 1px;
+  margin-left: 10%;
+}
+
+.img-sec{
+  text-align: center;
+  color: black;
+  font-weight: bold;
 }
 .titulo{
   float: left;
+  font-weight: bold;
 }
 .menu{
 float: right;
