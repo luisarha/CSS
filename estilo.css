@@ -16,9 +16,6 @@ body{
   border-radius: 10px 10px 0 0;
   box-sizing:
 }
-#foot-page{
-  background-color: #C6d5c5;
-}
 #div-principal{
   background-color: #82c3a6;
 }
@@ -51,9 +48,11 @@ body{
   border: 1px solid;
   margin-top: 5%;
 }
-
-.img-sec{
+.enlace-texto{
   text-align: center;
+  margin-bottom: 5%;
+}
+.img-sec{
   color: black;
   font-weight: bold;
 }
@@ -62,8 +61,24 @@ body{
   font-weight: bold;
 }
 .menu{
-float: right;
+ float: right;
 }
 .enlace{
   color: white;
+}
+#foot-page{
+    border-radius: 0 0 10px 10px;
+    background-color: #C6d5c5;
+}
+#contenido-pie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lista-cliente{
+  list-style-type: none;
+}
+.contacto-footer{
+  font-size: 180%;
+  font-weight: bold;
 }
