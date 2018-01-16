@@ -16,6 +16,20 @@ body{
   border-radius: 10px 10px 0 0;
   box-sizing:
 }
+.menu{
+  text-align: right;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+}
+.titulo{
+  float: left;
+  font-weight: bold;
+}
+.enlace{
+  color: white;
+  margin-right: 4%;
+  font-size: 110%;
+}
 #div-principal{
   background-color: #82c3a6;
 }
@@ -56,16 +70,7 @@ body{
   color: black;
   font-weight: bold;
 }
-.titulo{
-  float: left;
-  font-weight: bold;
-}
-.menu{
- float: right;
-}
-.enlace{
-  color: white;
-}
+
 #foot-page{
     border-radius: 0 0 10px 10px;
     background-color: #C6d5c5;

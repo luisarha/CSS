@@ -1,0 +1,75 @@
+body{
+  font-family: "Dancing Script";
+  background-color: #02010a;
+}
+#contenido{
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cabecera-page{
+  color: white;
+  background-color: #5b7989;
+  text-shadow: 2px 2px #02010a;
+  border-radius: 10px 10px 0 0;
+  box-sizing:
+}
+#content-page{
+  background-color: #d5c75f;
+  width: 100%;
+}
+.imagenes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.img-sec2{
+  width: 30%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.menu{
+  text-align: right;
+  margin-top: 2.5%;
+  margin-right: 2.5%;
+}
+.titulo{
+  float: left;
+  font-weight: bold;
+}
+.enlace{
+  color: white;
+  margin-right: 4%;
+  font-size: 110%;
+}
+#img-central{
+  position: center;
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 5%;
+}
+#foot-page{
+    border-radius: 0 0 10px 10px;
+    background-color: #C6d5c5;
+}
+#contenido-pie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lista-cliente{
+  list-style-type: none;
+}
+.contacto-footer{
+  font-size: 180%;
+  font-weight: bold;
+}
