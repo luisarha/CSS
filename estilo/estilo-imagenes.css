@@ -2,6 +2,10 @@ body{
   font-family: "Dancing Script";
   background-color: #02010a;
 }
+img{
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
 #contenido{
   display: flex;
   flex-direction: column;
@@ -23,7 +27,7 @@ body{
 }
 #content-page{
   background-color: #d5c75f;
-  width: 100%;
+    width: 100%;
 }
 .imagenes{
   display: flex;
@@ -86,4 +90,35 @@ img[alt=tres]{
 .contacto-footer{
   font-size: 180%;
   font-weight: bold;
+}
+@media (max-width:900px) {
+  #contenido{
+    width: 100%;
+    }
+    #contenido-pie{
+      display: flex;
+      flex-direction: column;
+      margin-left: -5%;
+    }
+    .imagenes{
+      display: flex;
+      flex-direction: column;
+    }
+    .img-sec2{
+      width: 95.5%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    #cabecera-page{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 20px;
+    }
+    .menu{
+      text-align: center;
+      justify-content: center;
+      float: center;
+
+    }
 }
