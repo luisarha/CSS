@@ -8,6 +8,11 @@ body{
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  position :relative;
+  -webkit-animation: move 0.7s ;5}
+@-webkit-keyframes move{
+  0%   {top: 700px;}
+  100% {top: -30px;}
 }
 #cabecera-page{
   color: white;
@@ -33,6 +38,15 @@ body{
   margin-bottom: 2.5%;
   margin-right: 2%;
   margin-left: 2%;
+}
+img[alt=par]{
+  -webkit-filter: grayscale(100%);
+}
+img[alt=uno]{
+  -webkit-filter: blur(10px);
+}
+img[alt=tres]{
+  -webkit-filter:sepia(90%);
 }
 .menu{
   text-align: right;
